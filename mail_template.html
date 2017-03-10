@@ -3,8 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+    <style type="text/css">
+        body {
+            background-color: gray;
+        }
+        .wrapper {
+            width: 600px;
+            background-color: aqua;
+            margin: auto;
+        }
+        .header {
+            height: 260px;
+        }
+        .base {
+            border: 1px solid red;
+            width: 100%;
+        }
+        td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="wrapper">
+        <table class="base">
+            <tr class="header"> 
+                <td>Заголовок</td>
+            </tr>
+            <tr class="body">
+                <td>Тело</td>
+            </tr>
+            
+            <tr class="footer">
+                <td>Подвал</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
